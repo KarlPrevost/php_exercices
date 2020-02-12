@@ -1,0 +1,22 @@
+<?php 
+function print_film_from_nbr($poc){
+    switch($poc) {
+        case 3 : echo "Les trois freres\n";
+        break;
+    
+        case 6 : echo "Sixieme sens\n";
+        break;
+
+        case 0 : echo "l'homme invisible\n";
+        break;
+
+        case 23 : echo "Le nombre 23" . "\n";
+        break;
+
+        case 28 : echo "28 jours plus tard";
+        break;
+
+        default : echo "Je ne connais pas.\n";
+    }
+}
+?>

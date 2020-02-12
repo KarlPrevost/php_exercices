@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<title>Step 1</title>
+</head>
+<body>
+	<form id="myForm" action="#">
+		<fieldset>
+			<legend>Sexe</legend>
+			<div>
+				<label for="homme">Homme</label>			
+				<input type="radio" name="sexe" id="homme" value="Homme"/>
+				<span></span>
+			</div>
+			<div>
+				<label for="femme">Femme</label>			
+				<input type="radio" name="sexe" id="femme" value="Femme" />
+			</div>
+			<div>
+				<label for="autre">Autre</label>
+				<input type="radio" name="sexe" id="autre" value="Autre" />
+			</div>
+		</fieldset>
+		<div>
+			<label for="civilite">Civilite</label>
+			<select name="civilite" id="civilite">
+				<option value="M.">M.</option>
+				<option value="Mme.">Mme.</option>
+			</select>
+		</div>
+		<div>
+			<label for="nom">Nom</label	>
+			<input type="text" name="nom" id="nom" minlength="2" />
+		</div>
+		<div>
+			<label for="email">Email</label>
+			<input type="email" name="email" id="email" />
+		</div>
+		<div>
+			<label for="tel">Telephone</label>
+			<input type="tel" name="tel" id="tel" />
+		</div>
+		<div>
+			<label for="website">Website</label>
+			<input type="url" name="website" id="website" />
+		</div>
+		<div>
+			<label for="date">Date de naissance</label>
+			<input type="date" name="date" id="date" />
+		</div>
+		<div>
+			<fieldset>
+				<legend>Hobbies</legend>				
+				<div>					
+					<label for="jeuxvideo">Jeux video</label>
+					<input type="checkbox" name="jeuxvideo" id="jeuxvideo" />
+				</div>								
+				<div>
+					<label for="cinema">Cinema</label>
+					<input type="checkbox" name="cinema" id="cinema" />
+				</div>
+				<div>
+					<label for="lecture">Lecture</label>
+					<input type="checkbox" name="lecture" id="lecture" />
+				</div>
+				<div>
+					<label for="sport">Sport</label>
+					<input type="checkbox" name="sport" id="sport" />
+				</div>
+				<div>
+					<label for="informatique">Informatique</label>
+					<input type="checkbox" name="informatique" id="informatique" />
+				</div>
+			</fieldset>
+		</div>
+		<input type="hidden" name="token" value="my first website"/>
+		<div>
+			<input id="validation" type="submit" name="validation" value="Validation">
+		</div>
+	</form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+#myForm fieldset {
+	padding-left: 0;
+	margin: 0;
+	margin-left: -2px;
+	padding-right: 8px;
+}
+
+#myForm, #myForm input {
+	font-size: 12px;
+}
+
+#myForm > div {
+	padding-right: 8px;
+}
+
+#myForm label {
+	display: inline-block;
+	width: 150px;
+}
+
+#myForm .border {
+	margin-left: -2px;
+	border: 2px dotted blue;
+}
+
+#myForm > fieldset:hover, div:hover {
+	background-color: azure;
+}
+
+#myForm input:hover { 
+	background-color: azure;
+}
+
+#validation {
+	border-radius: 5px 5px 5px 5px;
+	box-shadow: 2px 0px 0 0 black;
+}
